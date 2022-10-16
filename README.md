@@ -46,7 +46,7 @@ RegisterNumber:  21221230068
 ![image](https://user-images.githubusercontent.com/94165322/196046635-379e68de-7742-440a-a547-c66f0882ec90.png)
 ## FULL ADDER:
 ![image](https://user-images.githubusercontent.com/94165322/196046646-87ddb8e9-aa71-464f-98b9-75af2360c78b.png)
-
+![image](https://user-images.githubusercontent.com/94165322/196046799-6124c211-b53f-4399-9bc6-ba5838796ef7.png)
 
 ### Output:
 ### RTL
