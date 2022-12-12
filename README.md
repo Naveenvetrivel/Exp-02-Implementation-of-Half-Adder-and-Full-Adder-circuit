@@ -41,6 +41,24 @@ Program to design a half adder and full adder circuit and verify its truth table
 Developed by:NAVEENKUMAR V 
 RegisterNumber:  21221230068
 */
+## HALF ADDER:
+~~~
+module halfadder(a,b,sum,carry);
+input a,b;
+output sum,carry;
+xor(sum,a,b);
+and(carry,a,b);
+endmodule
+~~~
+## FULL ADDER:
+~~~
+module fulladder(a,b,c,carry,sum);
+input a,b,c;
+output sum,carry;
+assign sum=((a ^ b) ^ c);
+assign carry=((a & b)|(b & c)|(c & a));
+endmodule
+~~~
 #### Logic symbol & Truthtable
 ## HALF ADDER:
 ![image](https://user-images.githubusercontent.com/94165322/196046635-379e68de-7742-440a-a547-c66f0882ec90.png)
